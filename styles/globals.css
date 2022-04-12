@@ -1,9 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Libre';
+    src: url('/fonts/LibreBarcode39Text-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  },
+  @font-face {
+    font-family: 'Ragas';
+    src: url('/fonts/Al_Ragas-52f8.woff2') format('woff2');
+    font-weight: 400;
+  },
+  @font-face {
+    font-family: 'Reno Mono';
+    src: url('/fonts/RenoMono.woff2') format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Reno;
 }
 
 a {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Menus from './menus'
+import Menus from './Menus.js'
 
 function Layout({ children }) {
   return (
